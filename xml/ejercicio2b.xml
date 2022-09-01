@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/css" href="../css/ejercicio2b.css" ?>
+<pais nombre="El Salvador">
+<moneda>Dolar($)</moneda>
+<codigotelefonico>+503</codigotelefonico>
+<idioma Oficial="Español(oficial)"  Autoctono="Nahualt(Autóctono)" Segundo="Inglés(Segundo idioma)">
+<departamento  id="1" nombre="San Salvador"> 
+<cabecera>San Salvador</cabecera>
+<habitantes>1,700,000</habitantes>
+<altura>545 MSNM</altura>
+<areaterritorial>886,2 km^2</areaterritorial>
+</departamento>
+<departamento id="2" nombre="Santa Ana">
+<cabecera>Santa Ana</cabecera>
+<habitantes>631,100</habitantes>
+<altura>665 MSNM</altura>
+<areaterritorial>2,023 km^2</areaterritorial>
+</departamento>
+<departamento id="3" nombre="La Paz">
+<cabecera>Zacatecoluca</cabecera>
+<habitantes>332,000</habitantes>
+<altura>3,625 MSNM</altura>
+<areaterritorial>1,224 km^2</areaterritorial>
+</departamento>
+</idioma>
+</pais>
+

@@ -1,0 +1,30 @@
+{
+	"pais":{
+		"@nombre":"El Salvador",
+		"moneda":"Dolar($)",
+		"codigotelefonico":"+503",
+		"idioma":{
+			"@Oficial":"Español(oficial)",
+			"@Autoctono":"Nahualt(Autóctono)",
+			"@Segundo":"Inglés(Segundo idioma)",
+			"departamento":[
+				{
+					"@id":"1",
+					"@nombre":"San Salvador",
+					"cabecera":"San Salvador",
+					"habitantes":"1,700,000",
+					"altura":"545 MSNM",
+					"areaterritorial":"72,25 km^2"
+				},
+				{
+					"@d":"2",
+					"@nombre":"Santa Ana",
+					"cabecera":"Santa Ana",
+					"habitantes":"631,100",
+					"altura":"665 MSNM",
+					"areaterritorial":"408 km^2"
+				}
+			]
+		}
+	}
+}

@@ -1,0 +1,7 @@
+/* ejemplo2.css   CE18014  */
+
+pais {background-color:gray;}
+departamento {background-color:yellow; display:block;} 
+cabecera {color:black; display:block;} 
+habitantes{color:black; display:block;}
+altura {color:black;font-size:0.5cm; display:block;}

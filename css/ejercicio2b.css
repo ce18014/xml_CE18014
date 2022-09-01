@@ -1,0 +1,127 @@
+/* CSS  CE18014 */
+
+*{
+	margin:0;
+	padding:0;
+}
+
+pais::before {
+	content:attr(nombre);
+	color:white;
+	font-weight:bold;
+	text-align:center;
+	font-family:Arial;
+	background-color:#3C4560; 
+	border-style:none solid none solid;
+   	border-color:#EABE3F;
+	border-radius:5px;
+	margin-bottom:5px;
+	display:block;
+}
+
+pais {
+	background-color:azure;
+	color:blue;	
+	font-family:Comic Sans, Comic Sans MS, Arial;
+	width:800px;
+	margin:10px auto;
+	border-style:solid;
+   	border-color:#EABE3F;
+	border-radius:15px;
+	padding:10px;
+	font-size:1.4em;
+	display:block;
+}
+
+idioma::before {
+    content: " Idioma Oficial:" attr(Oficial)  "  Idioma Autóctono:" attr(Autoctono)  "   Segundo Idioma:" attr(Segundo);
+    display: block;
+    justify-content: center;
+    color:white;
+    border-radius:5px;
+	margin-bottom:5px;
+	border-style:none solid none solid;
+   	border-color:#EABE3F;
+	font-weight:bold;
+	text-align:center;
+	font-family:Arial;
+	background-color:#3C4560; 
+}
+
+moneda::before {
+	content:"Moneda: ";
+	display:inline;
+}
+
+moneda {
+	content:"Moneda: ";
+	display:block;
+}
+
+codigotelefonico::before {
+	content:"Area: ";
+	display:inline;
+}
+
+codigotelefonico {
+	display:block;
+}
+
+departamentos::before {
+	padding-top:10px;
+	content:"Departamentos ";
+	display:block;
+}
+
+departamento::before {
+	font-weight:bold;
+	content:"• "attr(nombre);
+	padding-left:10px;
+	display:inline;
+}
+
+departamento {
+	display:block;
+}
+
+cabecera::before {
+	content:"Cabecera: ";
+	display:inline;
+}
+
+cabecera {
+	padding-left:33px;
+	display:block;
+} 
+
+habitantes::before {
+	content:"Habitantes: ";
+	display:inline;
+}
+
+habitantes {
+	padding-left:33px;
+	display:block;
+}
+
+altura::before {
+	content:"Altura: ";
+	display:inline;
+}
+
+altura {
+	padding-left:33px;
+	display:block;
+}
+
+
+areaterritorial::before {
+	content:"Area: ";
+	display:inline;
+}
+
+areaterritorial {
+	padding-left:33px;
+	display:block;
+}
+

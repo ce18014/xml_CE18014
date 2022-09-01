@@ -1,0 +1,60 @@
+/* CSS CE18014 */
+
+*{
+    margin:0;
+    padding: 0;
+
+}
+
+fichero{
+    background-color: lavenderblush;
+    color:wheat;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ficha[id]::before {
+	content:"Id: "attr(id)" Fecha: "attr(fechaingreso);
+	color:white;
+	font-weight:bold;
+	display:block;
+	text-align:center;
+	font-family:Arial;
+}
+
+ficha {
+	width:700px;
+	margin:10px auto;
+	padding:20px;
+	background-color:cornflowerblue; 
+	border-style:solid;
+    border-radius: 70px;
+   	border-color:#EABE3F;
+	font-size:1.4em;
+	display:block; 
+}
+
+nombre {
+	text-align:center;
+	display:inline;
+} 
+
+apellido {
+	text-align:center;
+	display:inline;
+}
+
+telefono {
+	display:block;
+}
+
+email {
+	display:block;
+}
+
+UrlWebPersonal {
+	display:block;
+}
+
+direccion {
+	display:block;
+}
